@@ -59,32 +59,32 @@ for (i = 0; i < arrayLength; i++) {
 // return only the highest "count / binary gap"
 return tempCount;
 }
-// the result of 1041 must be 5
-// console.log(solution(2));
-// solution(5);
 
 
-function solution2(n) {
-    let binaryNum = n.toString(2);
-    console.log("the binary number is : " + binaryNum);
-    arrayString = binaryNum.length;
-    let count=0;
-    let tempCount=0;
-    for(i=0; i<arrayString; i++) {
-        if(binaryNum[i] == 0) {
+function binaryGapSolution(n){
+        // converted user input as binary value  using * toString(2) method* 2 - the number will show as binary value "https://www.w3schools.com/jsref/jsref_tostring_number.asp for more info"
+    let binaryNumber = n.toString(2);
+    console.log("binary number is " + binaryNumber);
+    let count = 0;
+    let temp = 0;
+     
+
+    for(i=0; i<binaryNumber.length; i++) {
+        //Only count the number "0"
+        if(binaryNumber[i] == 0) {
             count++;
-            console.log(count)
-        } 
-        else if (binaryNum[i]== 1) {
-            if(tempCount<count) {
-                
-                tempCount= count;
-                console.log("tempCount"+tempCount);
-            }
-            count=0;
+        }
+        //when it finds 1 compare to temporary number and replace it if the count is higher then reset count back to zero. 
+        else if(binaryNumber[i] == 1) {
+             if( temp< count){
+                 temp = count;
+             }
+             count =0;
         }
     }
-    return n;
+
+    return temp;
+
 }
 
-console.log("Solution 2 is "+solution2(1041));
+console.log( "Return :"+ binaryGapSolution(1041));
