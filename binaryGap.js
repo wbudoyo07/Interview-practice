@@ -88,3 +88,7 @@ function binaryGapSolution(n){
 }
 
 console.log( "Return :"+ binaryGapSolution(1041));
+
+function binaryGapSolution(n) {
+    var 
+}
