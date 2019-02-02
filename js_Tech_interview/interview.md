@@ -38,3 +38,11 @@ This means that a function created with a function declaration
 
 In a function expression, the function is not processed until the interpreter gets to that statement. This means you cannot call this function before the interpreter has discovered it.
 
+The main difference between function declarations and function expressions is that function declarations are hoisted, meaning that we can use function declarations in our code even before declaring them. Function expressions are not hoisted, so you can't call the function unless it appears earlier in your code.
+
+Both ways of writing a function are perfectly acceptable, and besides hoisting, there is no real advantage of one over the other.
+
+they are 3 conditional expression?
+- ternary operator
+- switch statement
+-if else statement
