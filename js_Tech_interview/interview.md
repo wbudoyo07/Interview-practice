@@ -12,7 +12,7 @@ Variable declared in parent function scope
 Variable declared in the global namespace
 
 
-2)Primirtive Javascript data types
+2)Primitive Javascript data types
 number
 String
 boolean
@@ -46,3 +46,7 @@ they are 3 conditional expression?
 - ternary operator
 - switch statement
 -if else statement
+
+what is OOP ?
+- Object interacting with one another through methods and properties.
+- Used to store data , structure applications into modules and keeping code clean.
