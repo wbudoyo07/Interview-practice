@@ -50,3 +50,6 @@ they are 3 conditional expression?
 what is OOP ?
 - Object interacting with one another through methods and properties.
 - Used to store data , structure applications into modules and keeping code clean.
+
+what is inheritance ?
+
