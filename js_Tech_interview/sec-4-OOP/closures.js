@@ -39,3 +39,7 @@ var defaultQuestion = interviewQuestion();
 teacherQuestion("William");
 designerQuestion("Yessy");
 defaultQuestion("Rico");
+
+function interviewQuestion(job , name) {
+    
+}

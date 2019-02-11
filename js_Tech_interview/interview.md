@@ -1,8 +1,11 @@
-What is a closure?
+
 what is pure function?
 what is aysnc/desync?
 
-1)A closure is a function defined inside another function (called parent function) and has access to the variable which is declared and defined in parent function scope.
+
+
+1) What is a closure?
+A closure is a function defined inside another function (called parent function) and has access to the variable which is declared and defined in parent function scope.
 
 
 The closure has access to the variable in three scopes:
@@ -27,11 +30,11 @@ switch statement
 
 4) pure function ?
 that means a pure function always returns the same result given same parameters.
-benefit using pure function 
+benefit using pure function. or Given the same input, will always return the same output.
 - is easy to test.
 
 
-5) function declartion and function expression ?
+5) function declaration and function expression ?
 A function declaration creates a function that you can call later in your code, the interpreter always looks for variables and function declarations before going through each section of a script, line-by -line.
 
 This means that a function created with a function declaration 
