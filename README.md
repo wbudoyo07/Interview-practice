@@ -1,1 +1,1 @@
-# interview-practice
+# codility-practice
