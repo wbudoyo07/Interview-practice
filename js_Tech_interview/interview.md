@@ -56,3 +56,11 @@ what is OOP ?
 
 what is inheritance ?
 
+what is first class Function ?
+First class means that something is just a value. A first-class  function is
+one that can go anywhere that any other value can go there are few to no restrictions.
+For instance : A function is an instance of the object type.
+               A function behaves like any other object.
+               We can store function in a variable;
+                We can pass a function as an argument to another function
+                We can return a function from a function
